@@ -8,15 +8,25 @@ The FrozenLake environment in OpenAI Gym is a gridworld problem that challenges 
 
 ## VALUE ITERATION ALGORITHM
 1.Initialize the value function for all states to zero.
+
 2.Iterate until the values converge, meaning changes become very small.
+
 3.For each state, evaluate all possible actions.
+
 4.Estimate expected rewards by considering next states and their probabilities.
+
 5.Update the value function by selecting the best action that maximizes future rewards.
+
 6.Repeat the process until the value function stops changing significantly.
+
 7.Extract the optimal policy by choosing the action that leads to the highest value for each state.
+
 8.Ensure the agent follows the best possible path to maximize rewards.
+
 9.Used in Markov Decision Processes (MDPs) where the environment is uncertain or stochastic.
+
 10.Guarantees finding the optimal policy, making it useful in reinforcement learning applications.
+
 ## VALUE ITERATION FUNCTION
 ### Name:APARNA.M
 ### Register Number: 212223220008
