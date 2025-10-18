@@ -21,7 +21,7 @@ The FrozenLake environment in OpenAI Gym is a gridworld problem that challenges 
 ### Name:APARNA.M
 ### Register Number: 212223220008
 
-
+```
 def value_iteration(P, gamma=1.0, theta=1e-10):
     V = np.zeros(len(P), dtype=np.float64)
     # Write your code here
@@ -51,7 +51,7 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
         pi[s] = np.argmax(q_s)
 
     return V, pi
-
+```
     
 ## OUTPUT:
 <img width="1837" height="371" alt="image" src="https://github.com/user-attachments/assets/a124452c-d883-456e-ab54-6a8c09a386c0" />
